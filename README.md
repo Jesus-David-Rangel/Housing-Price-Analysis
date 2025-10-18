@@ -55,4 +55,3 @@ El análisis se desarrolló en Python, haciendo uso de las siguientes librerías
 Este análisis fue realizado por [Jesus-David-Silva-Rangel-19](https://github.com/Jesus-David-Silva-Rangel-19).
 
 ¡Gracias por visitar este repositorio! Si tienes sugerencias o deseas contribuir, no dudes en abrir un issue o un pull request.
-````
