@@ -10,6 +10,8 @@ Durante el análisis exploratorio de datos (EDA), se generaron visualizaciones c
 
 Finalmente, se implementó un modelo de regresión lineal como aproximación predictiva, con el fin de cuantificar el impacto de cada variable en el precio medio de las viviendas. El modelo permitió estimar el grado de influencia de los factores estudiados y validar su utilidad para el análisis de tendencias en el mercado inmobiliario. Los resultados obtenidos ofrecen una base sólida para la toma de decisiones estratégicas en el ámbito de inversión, planeación urbana y políticas de vivienda.
 
+---
+
 ### Identification of Factors Influencing Housing Market Prices in California
 
 **Project Description:**
