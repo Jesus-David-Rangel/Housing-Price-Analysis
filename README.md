@@ -1,57 +1,23 @@
-# Análisis de Precios de Viviendas en California
+### Identificación de Factores que Influyen en el Precio del Mercado de Viviendas en California
 
-## Descripción del repositorio
+**Descripción del Proyecto:**
 
-Este repositorio contiene un análisis exploratorio y predictivo sobre los precios de viviendas en California utilizando el dataset `california_housing_train.csv`. El objetivo principal de este proyecto es comprender los factores que influyen en el valor medio de las viviendas y construir un modelo de regresión lineal capaz de predecir dicho valor a partir de diversas variables socioeconómicas y geográficas.
+Este proyecto se centró en el análisis exploratorio de un conjunto de datos sobre viviendas en el estado de California, con el propósito de identificar los principales factores que influyen en la variación del precio medio de las propiedades. A través de un enfoque analítico y estadístico, se buscó comprender cómo variables demográficas, económicas y geográficas afectan el valor del mercado inmobiliario en distintas regiones del estado.
 
-## Objetivo del análisis
+El proceso inició con la carga y depuración de los datos, verificando la ausencia de valores nulos y asegurando la consistencia de las variables numéricas. Posteriormente, se realizó un análisis descriptivo para evaluar métricas como el ingreso medio, el número promedio de habitaciones, la antigüedad de las viviendas y su ubicación geográfica. Estas variables fueron seleccionadas por su relevancia en la determinación del valor de una propiedad.
 
-El análisis realizado buscó:
+Durante el análisis exploratorio de datos (EDA), se generaron visualizaciones con Matplotlib y Seaborn para identificar relaciones entre variables, distribuciones y patrones de comportamiento del mercado. Se observaron correlaciones significativas entre el ingreso medio de los hogares, la densidad poblacional y el precio medio de las viviendas, evidenciando que la ubicación y las condiciones socioeconómicas son determinantes clave del valor inmobiliario.
 
-- Explorar y entender las características del dataset, como la edad media de las viviendas, número de habitaciones, ingresos medios y localización geográfica.
-- Visualizar las relaciones entre las distintas variables y el precio medio de las viviendas.
-- Identificar correlaciones y patrones que puedan justificar el comportamiento de los precios.
-- Construir y evaluar un modelo de regresión lineal para predecir el precio medio de una vivienda en función de las variables disponibles.
+Finalmente, se implementó un modelo de regresión lineal como aproximación predictiva, con el fin de cuantificar el impacto de cada variable en el precio medio de las viviendas. El modelo permitió estimar el grado de influencia de los factores estudiados y validar su utilidad para el análisis de tendencias en el mercado inmobiliario. Los resultados obtenidos ofrecen una base sólida para la toma de decisiones estratégicas en el ámbito de inversión, planeación urbana y políticas de vivienda.
 
-## Tecnologías y librerías utilizadas
+### Identification of Factors Influencing Housing Market Prices in California
 
-El análisis se desarrolló en Python, haciendo uso de las siguientes librerías principales:
+**Project Description:**
 
-- **pandas**: para carga, manipulación y análisis de datos.
-- **numpy**: para operaciones numéricas.
-- **matplotlib** y **seaborn**: para la visualización de datos.
-- **scikit-learn**: para la preparación de datos, construcción del modelo y evaluación de métricas.
-- **Google Colab**: como entorno de desarrollo para facilitar la ejecución interactiva del notebook.
+This project focused on the exploratory analysis of a housing dataset from the state of California, aiming to identify the key factors influencing variations in average property prices. Through a data-driven and statistical approach, the study sought to understand how demographic, economic, and geographic variables affect the value of the real estate market across different regions of the state.
 
-## Resumen del análisis y resultados
+The process began with data loading and cleaning, ensuring the absence of missing values and the consistency of numerical variables. A descriptive analysis was then performed to evaluate metrics such as median household income, average number of rooms, housing age, and geographic location—variables considered highly relevant in determining property values.
 
-1. **Exploración de datos:**
-   - Se inspeccionaron las primeras y últimas filas del dataset para conocer la estructura y calidad de los datos.
-   - Se analizaron las estadísticas descriptivas y se comprobó que no existen valores nulos en las variables.
+During the exploratory data analysis (EDA), visualizations were created using Matplotlib and Seaborn to reveal relationships among variables, distributions, and market behavior patterns. Strong correlations were identified between median income, population density, and housing prices, demonstrating that location and socioeconomic conditions play a decisive role in property valuation.
 
-2. **Visualización:**
-   - Se realizaron gráficos para observar la distribución de variables como la mediana de los precios, el ingreso medio y la relación entre número de habitaciones e ingresos.
-   - Se identificaron zonas geográficas (por latitud y longitud) con precios significativamente altos o bajos.
-
-3. **Modelo predictivo:**
-   - Se dividieron los datos en conjuntos de entrenamiento y prueba.
-   - Se construyó un modelo de regresión lineal para predecir el valor medio de la vivienda.
-   - Se evaluó el modelo utilizando métricas como MAE (error absoluto medio), MSE (error cuadrático medio) y R² (coeficiente de determinación).
-   - El modelo logró explicar una parte significativa de la variabilidad en los precios, aunque existen factores externos que pueden afectar la precisión.
-
-4. **Conclusiones:**
-   - El ingreso medio por hogar y la localización son variables altamente correlacionadas con el precio de la vivienda.
-   - El modelo de regresión lineal es útil para entender tendencias generales, pero podría mejorarse empleando modelos más complejos o considerando variables adicionales.
-
-## Cómo usar este repositorio
-
-1. Clona el repositorio o descarga el notebook `Housing_Price_Analysis.ipynb`.
-2. Asegúrate de tener instalado Python 3 y las librerías necesarias (puedes usar un entorno como Google Colab).
-3. Descarga el dataset `california_housing_train.csv` y colócalo en la ruta indicada en el notebook.
-4. Ejecuta el notebook para reproducir el análisis y los resultados.
-
-## Créditos
-
-Este análisis fue realizado por [Jesus-David-Silva-Rangel-19](https://github.com/Jesus-David-Silva-Rangel-19).
-
-¡Gracias por visitar este repositorio! Si tienes sugerencias o deseas contribuir, no dudes en abrir un issue o un pull request.
+Finally, a linear regression model was implemented as a predictive approach to quantify the impact of each factor on average housing prices. The model provided valuable insights into the degree of influence of each variable and validated its applicability for understanding trends in the housing market. The findings offer a solid foundation for strategic decision-making in investment analysis, urban planning, and housing policy development.
